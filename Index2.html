@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="/img/icono.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1 {
+            color: rgb(232, 63, 29);
+        }
+    </style>
+    <title>Calculadora</title>
+</head>
+<body bgcolor="33D1FF">
+    
+    <main> 
+        <center>
+
+            <h1>Suma</h1>
+            <form  method="post" oninput="resultado1.value =parseInt(num1.value) + parseInt(num2.value)">
+                <input type="number" id="num1", value="0">
+                +
+                <input type="number" id="num2", value="0">
+                =
+                <output  type= "number" name="resultado1" for="num1 + num2"></output>
+            </form>
+     
+                 <h1>Resta</h1>
+                <form  method="post" oninput="resultado2.value = (val1.value) - (val2.value)">
+                    <input type="number" id="val1", value="0">
+                    -
+                    <input type="number" id="val2", value="0">
+                    =
+                    <output name="resultado2" for="val1 val2"></output>
+                </form>
+
+                    <h1>Multiplicacion</h1>
+                    <form  method="post" oninput="resultado3.value = (n1.value) * (n2.value)">
+                        <input type="number" id="n1", value="0">
+                        x
+                        <input type="number" id="n2", value="0">
+                        =
+                        <output name="resultado3" for="n1 n2"> </output>
+                        </form>
+
+                            <h1>Division</h1>
+                            <form  method="post" oninput="resultado4.value = (v1.value) / (v2.value)">
+                                <input type="number" id="v1", value="0">
+                                %
+                                <input type="number" id="v2", value="0">
+                                =
+                                <output  name="resultado4" for="v1 v2"></output>
+                            </form>
+        
+                        </center>
+
+
+    </main>
+
+
+
+</body>
+</html>mj   
